@@ -12,18 +12,19 @@ Hi, I'm Abdulaziz Ayalew, a developer learning how to build, ship, and run softw
 
 | # | Milestone | Status | Folder |
 |---|-----------|--------|--------|
-| 1 | [Milestone 1] | In progress | [`milestone-01`](./week-01) |
+| 1 | Week 1 Linux Hands-on Lab | Lab files ready; text screenshot pending | [`week1`](./week1/) |
 
 
 ## How This Repo Is Organized
 
-```
-cloud-devops-journey/
-├── README.md          <- you are here
-├── week-01/      <- work for milestone 1
-│   └── README.md      <- what I did and how to run it
-├── week-02/
-└── notes/             <- things I learn along the way
+```text
+Cloud-Devops/
+├── README.md
+└── week1/
+    ├── README.md       <- tasks, commands, and evidence links
+    ├── scripts/
+    │   └── notes.txt
+    └── screenshots/   <- original lab evidence
 ```
 
 ## Tools & Skills I'm Learning
