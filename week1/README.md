@@ -12,6 +12,8 @@ week1/
 └── screenshots/
     ├── 01-create-workspace.png
     ├── 02-create-notes.png
+    ├── 03-add-text.png
+    ├── 03-verify-text.png
     ├── 04-create-scripts.png
     ├── 05-move-notes.png
     ├── 06-find-notes.png
@@ -29,7 +31,7 @@ in this repository's `week1/` folder. The first screenshot shows the requested
 | --- | --- | --- |
 | 1. Create the workspace | `mkdir ~/cloud-devops/week1` | [Screenshot](screenshots/01-create-workspace.png) |
 | 2. Create notes.txt | `touch notes.txt` | [Screenshot](screenshots/02-create-notes.png) |
-| 3. Add text to notes.txt | See command below | [Completed notes](scripts/notes.txt); screenshot still needed |
+| 3. Add text to notes.txt | See command below | [Add text](screenshots/03-add-text.png), [verify contents](screenshots/03-verify-text.png), [notes](scripts/notes.txt) |
 | 4. Create scripts directory | `mkdir scripts` | [Screenshot](screenshots/04-create-scripts.png) |
 | 5. Move notes into scripts | `mv notes.txt scripts/` | [Screenshot](screenshots/05-move-notes.png) |
 | 6. Search for notes.txt | `find . -name "notes.txt"` | [Screenshot](screenshots/06-find-notes.png) |
@@ -38,11 +40,7 @@ in this repository's `week1/` folder. The first screenshot shows the requested
 To reproduce the text addition after moving the file, run this from `week1/`:
 
 ```bash
-printf '%s\n' \
-  'Week 1 Linux Hands-on Lab: Your First Project Workspace' \
-  'I practiced creating directories and files, writing text, moving files,' \
-  'searching for files with find, and identifying process IDs with ps.' \
-  > scripts/notes.txt
+echo "I am learning Linux commands in Week 1." >> scripts/notes.txt
 cat scripts/notes.txt
 ```
 
@@ -63,11 +61,10 @@ git commit -m "Document Week 1 Linux lab and organize screenshot evidence"
 git push origin main
 ```
 
-## Remaining submission steps
+## Submission status
 
-- Capture a screenshot showing the text-addition command and `cat scripts/notes.txt`
-  output, then save it as `screenshots/03-add-text.png` and commit and push it.
-- Submit the repository link in the Week 1 section of the Cloud & DevOps track sheet.
+All seven lab tasks have screenshot evidence, with eight original screenshots
+included (the text-addition task has separate command and output screenshots).
 
-Six original screenshots are included. Task 3's file is completed, but its screenshot
-was not supplied. The track sheet submission has not been performed here.
+Submit the repository link in the Week 1 section of the Cloud & DevOps track sheet.
+The track sheet submission has not been performed here.

@@ -12,7 +12,7 @@ Hi, I'm Abdulaziz Ayalew, a developer learning how to build, ship, and run softw
 
 | # | Milestone | Status | Folder |
 |---|-----------|--------|--------|
-| 1 | Week 1 Linux Hands-on Lab | Lab files ready; text screenshot pending | [`week1`](./week1/) |
+| 1 | Week 1 Linux Hands-on Lab | Lab tasks and screenshot evidence complete | [`week1`](./week1/) |
 
 
 ## How This Repo Is Organized
