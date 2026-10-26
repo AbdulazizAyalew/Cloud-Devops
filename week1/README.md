@@ -1,4 +1,4 @@
-# Week 1 Linux Hands-on Lab: Your First Project Workspace
+# Week 1 Linux Hands-on Lab
 
 This lab practices Linux directories, files, file searches, and process IDs.
 
@@ -37,34 +37,3 @@ in this repository's `week1/` folder. The first screenshot shows the requested
 | 6. Search for notes.txt | `find . -name "notes.txt"` | [Screenshot](screenshots/06-find-notes.png) |
 | 7. Identify a running process and PID | `ps` | [Screenshot](screenshots/07-identify-process.png) |
 
-To reproduce the text addition after moving the file, run this from `week1/`:
-
-```bash
-echo "I am learning Linux commands in Week 1." >> scripts/notes.txt
-cat scripts/notes.txt
-```
-
-The file search returned `./scripts/notes.txt`. In the supplied `ps` screenshot,
-`bash` had PID **196631**, and `ps` had PID **207879**. These are historical
-values from that terminal session; process IDs change between sessions.
-
-## GitHub submission
-
-Repository: [AbdulazizAyalew/Cloud-Devops](https://github.com/AbdulazizAyalew/Cloud-Devops)
-
-The existing local repository is connected through its `origin` remote:
-
-```bash
-git remote -v
-git add README.md week1/
-git commit -m "Document Week 1 Linux lab and organize screenshot evidence"
-git push origin main
-```
-
-## Submission status
-
-All seven lab tasks have screenshot evidence, with eight original screenshots
-included (the text-addition task has separate command and output screenshots).
-
-Submit the repository link in the Week 1 section of the Cloud & DevOps track sheet.
-The track sheet submission has not been performed here.
