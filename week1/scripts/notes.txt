@@ -1,4 +1,4 @@
-Week 1 Linux Hands-on Lab: Your First Project Workspace
+Week 1 Linux Hands-on Lab: 
 I practiced creating directories and files, writing text, moving files,
 searching for files with find, and identifying process IDs with ps.
 I am learning Linux commands in Week 1.
